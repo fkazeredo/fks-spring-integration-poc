@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  
+spring:
+  rabbitmq:
+    virtual-host: /
+    addresses: localhost:5672
+    username: rabbitmq
+    password: rabbitmq
